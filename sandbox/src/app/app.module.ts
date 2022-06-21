@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularWelcomeComponent } from './angular-welcome/angular-welcome.component';
+import { MatSidenavModule } from '@angular/material/sidenav'
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AngularWelcomeComponent } from './angular-welcome/angular-welcome.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

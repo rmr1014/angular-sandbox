@@ -1,1 +1,15 @@
-<app-angular-welcome></app-angular-welcome>
+<mat-drawer-container class="drawer-container">
+    <mat-drawer #drawer class="drawer" mode="side">
+        <p>Testing this</p>
+    </mat-drawer>
+
+    <div class="example-sidenav-content">
+        <button type="button" mat-button (click)="drawer.toggle()">
+          Toggle sidenav
+        </button>
+        <div>
+            <app-angular-welcome></app-angular-welcome>
+        </div>
+    </div>
+
+</mat-drawer-container>
