@@ -1,15 +1,15 @@
+<mat-toolbar>
+  <button mat-icon-button class="menu-button" (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+</mat-toolbar>
+
 <mat-drawer-container class="drawer-container">
-    <mat-drawer #drawer class="drawer" mode="side">
-        <p>Testing this</p>
-    </mat-drawer>
+  <mat-drawer #drawer class="drawer" mode="side">
+    <p>Testing this</p>
+  </mat-drawer>
 
-    <div class="example-sidenav-content">
-        <button type="button" mat-button (click)="drawer.toggle()">
-          Toggle sidenav
-        </button>
-        <div>
-            <app-angular-welcome></app-angular-welcome>
-        </div>
-    </div>
-
+  <div class="example-sidenav-content">
+    <app-angular-welcome></app-angular-welcome>
+  </div>
 </mat-drawer-container>
