@@ -9,7 +9,8 @@ import { AngularWelcomeComponent } from './angular-welcome/angular-welcome.compo
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatIconModule } from '@angular/material/icon';
-import { ButtonComponent } from './button/button.component'
+import { ButtonComponent } from './button/button.component';
+import {MatDividerModule} from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ButtonComponent } from './button/button.component'
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    MatDividerModule,
     MatIconModule,
     MatSidenavModule,
     MatToolbarModule
