@@ -8,12 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularWelcomeComponent } from './angular-welcome/angular-welcome.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MatIconModule } from '@angular/material/icon'
+import { MatIconModule } from '@angular/material/icon';
+import { ButtonComponent } from './button/button.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    AngularWelcomeComponent
+    AngularWelcomeComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
