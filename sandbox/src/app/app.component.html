@@ -6,10 +6,10 @@
 
 <mat-drawer-container class="drawer-container">
   <mat-drawer #drawer class="drawer" mode="side">
-    <p>Testing this</p>
+    <a routerLink="/welcome">Welcome</a>
   </mat-drawer>
 
   <div class="example-sidenav-content">
-    <app-angular-welcome></app-angular-welcome>
+    <router-outlet></router-outlet>
   </div>
 </mat-drawer-container>
