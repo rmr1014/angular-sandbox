@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatButtonModule } from '@angular/material/button';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -11,26 +13,31 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularWelcomeComponent } from './angular-welcome/angular-welcome.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ButtonComponent } from './button/button.component';
 import { BadgeComponent } from './badge/badge.component';
+import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AngularWelcomeComponent,
     ButtonComponent,
-    BadgeComponent
+    BadgeComponent,
+    ButtonToggleComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
     MatBadgeModule,
     MatButtonModule,
+    MatButtonToggleModule,
     MatDividerModule,
     MatIconModule,
     MatSidenavModule,
-    MatToolbarModule
+    MatToolbarModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
