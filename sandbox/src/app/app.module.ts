@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -16,6 +17,7 @@ import { AppComponent } from './app.component';
 import { BadgeComponent } from './badge/badge.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { ButtonComponent } from './button/button.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { ButtonComponent } from './button/button.component';
     AngularWelcomeComponent,
     ButtonComponent,
     BadgeComponent,
-    ButtonToggleComponent
+    ButtonToggleComponent,
+    CardComponent
   ],
   imports: [
     AppRoutingModule,
@@ -33,6 +36,7 @@ import { ButtonComponent } from './button/button.component';
     MatBadgeModule,
     MatButtonModule,
     MatButtonToggleModule,
+    MatCardModule,
     MatDividerModule,
     MatIconModule,
     MatSidenavModule,
