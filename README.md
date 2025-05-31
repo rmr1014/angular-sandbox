@@ -1,20 +1,62 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This project is an Angular sandbox environment for experimenting with Angular features, components, and libraries. It serves as a playground for learning, prototyping, and testing Angular concepts in isolation.
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+
+Follow these steps to set up and run the project locally:
+
+1. **Clone the repository**
+   ```
+   git clone https://github.com/your-username/angular-sandbox.git
+   cd angular-sandbox
+   ```
+
+2. **Install dependencies**
+   ```
+   npm install
+   ```
+
+3. **Run the development server**
+   ```
+   ng serve
+   ```
+   The app will be available at `http://localhost:4200/`.
+
+4. **Software dependencies**
+   - [Node.js](https://nodejs.org/) (v16 or higher recommended)
+   - [Angular CLI](https://angular.io/cli) (v15 or higher recommended)
+   - npm (comes with Node.js)
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+
+To build the project for production:
+```
+ng build
+```
+
+To run unit tests:
+```
+ng test
+```
+
+To run end-to-end tests:
+```
+ng e2e
+```
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes and commit them.
+4. Push to your fork and submit a pull request.
+
+Please ensure your code follows the Angular style guide and includes relevant tests.
+
+# Resources
+
+- [Angular Documentation](https://angular.io/docs)
+- [Angular CLI Reference](https://angular.io/cli)
+- [Contributing to Angular](https://github.com/angular/angular/blob/main/CONTRIBUTING.md)
