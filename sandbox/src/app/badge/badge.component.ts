@@ -1,20 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-badge',
   templateUrl: './badge.component.html',
   styleUrls: ['./badge.component.css']
 })
-export class BadgeComponent implements OnInit {
+export class BadgeComponent {
   hidden = false;
 
   toggleBadgeVisibility() {
     this.hidden = !this.hidden;
   }
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

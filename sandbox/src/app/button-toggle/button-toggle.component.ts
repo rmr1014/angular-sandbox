@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
 @Component({
@@ -6,13 +6,7 @@ import { FormControl } from '@angular/forms';
   templateUrl: './button-toggle.component.html',
   styleUrls: ['./button-toggle.component.css']
 })
-export class ButtonToggleComponent implements OnInit {
+export class ButtonToggleComponent {
   fontStyleControl = new FormControl('');
   fontStyle?: string;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }
