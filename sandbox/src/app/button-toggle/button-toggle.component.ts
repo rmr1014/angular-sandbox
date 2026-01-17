@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule, FormControl } from '@angular/forms';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
@@ -10,13 +10,7 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
   templateUrl: './button-toggle.component.html',
   styleUrls: ['./button-toggle.component.css']
 })
-export class ButtonToggleComponent implements OnInit {
+export class ButtonToggleComponent {
   fontStyleControl = new FormControl('');
   fontStyle?: string;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

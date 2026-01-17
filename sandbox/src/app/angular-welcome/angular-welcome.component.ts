@@ -9,12 +9,6 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './angular-welcome.component.html',
   styleUrls: ['./angular-welcome.component.css']
 })
-export class AngularWelcomeComponent implements OnInit {
-  title = 'sandbox'
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class AngularWelcomeComponent {
+  title = 'sandbox';
 }
