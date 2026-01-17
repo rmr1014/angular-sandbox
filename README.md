@@ -23,8 +23,8 @@ Follow these steps to set up and run the project locally:
    The app will be available at `http://localhost:4200/`.
 
 4. **Software dependencies**
-   - [Node.js](https://nodejs.org/) (v16 or higher recommended)
-   - [Angular CLI](https://angular.io/cli) (v15 or higher recommended)
+   - [Node.js](https://nodejs.org/) (v18 or higher recommended)
+   - [Angular CLI](https://angular.io/cli) (v21 or higher recommended)
    - npm (comes with Node.js)
 
 # Build and Test
