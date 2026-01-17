@@ -1,10 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-    selector: 'app-card',
-    templateUrl: './card.component.html',
-    styleUrls: ['./card.component.css'],
-    standalone: false
+  selector: 'app-card',
+  standalone: true,
+  imports: [CommonModule, MatCardModule, MatButtonModule],
+  templateUrl: './card.component.html',
+  styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
 
